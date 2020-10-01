@@ -1,0 +1,10 @@
+Bug ->
+---------------
+
+1 . Game is automatically started on first intiation without ever pressing refresh or showing the refresh     <h1> tag.
+
+Required Fixes ->
+-----------------------
+
+1 . convert the reload to an event button which onl starts the game when that button is pressed. Button can     be set to location.reload()
+
